@@ -1,0 +1,35 @@
+@use "sass:map";
+@use "variables" as *;
+
+@mixin respond($breakpoint) {
+  @media (max-width: map.get($breakpoints, $breakpoint)) {
+    @content;
+  }
+}
+
+@mixin card-surface {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-md);
+}
+
+@mixin glass-surface {
+  background: color-mix(in srgb, var(--color-bg) 72%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-border) 75%, transparent);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+@mixin focus-ring {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem color-mix(in srgb, var(--color-primary) 24%, transparent);
+}
+
+@mixin section-space {
+  padding: 6rem 0;
+
+  @include respond(md) {
+    padding: 4.5rem 0;
+  }
+}

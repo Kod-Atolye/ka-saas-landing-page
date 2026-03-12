@@ -1,0 +1,35 @@
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-gradient {
+  background: var(--gradient-hero);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-surface-soft {
+  background: color-mix(in srgb, var(--color-surface) 85%, transparent);
+}
+
+.shadow-glow {
+  box-shadow: var(--shadow-glow);
+}
+
+.radius-xl {
+  border-radius: var(--radius-xl);
+}
+
+.max-w-640 {
+  max-width: 640px;
+}
+
+.max-w-720 {
+  max-width: 720px;
+}
+
+.text-small-ui {
+  font-family: "Poppins", sans-serif;
+  font-size: var(--text-sm);
+}

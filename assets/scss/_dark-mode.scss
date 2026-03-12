@@ -1,0 +1,48 @@
+[data-theme="dark"] .nav-link-item,
+[data-theme="dark"] .footer-column a,
+[data-theme="dark"] .footer-column p,
+[data-theme="dark"] .section-subtitle,
+[data-theme="dark"] p,
+[data-theme="dark"] .price-note,
+[data-theme="dark"] .text-muted-soft {
+  color: var(--color-text-muted);
+}
+
+[data-theme="dark"] .btn-outline-primary {
+  background: color-mix(in srgb, var(--color-bg) 70%, transparent);
+}
+
+[data-theme="dark"] .hero-badge,
+[data-theme="dark"] .section-eyebrow,
+[data-theme="dark"] .blog-tag,
+[data-theme="dark"] .category-chip,
+[data-theme="dark"] .filter-button.is-active {
+  color: var(--color-primary-light);
+}
+
+[data-theme="dark"] .theme-toggle,
+[data-theme="dark"] .mobile-nav-toggle,
+[data-theme="dark"] .slider-nav,
+[data-theme="dark"] .social-links a,
+[data-theme="dark"] .mobile-nav-panel,
+[data-theme="dark"] .newsletter-shell,
+[data-theme="dark"] .accordion-item,
+[data-theme="dark"] .use-case-shell,
+[data-theme="dark"] .table-card {
+  background: color-mix(in srgb, var(--color-bg) 94%, transparent);
+}
+
+[data-theme="dark"] .demo-stage,
+[data-theme="dark"] .analytics-board,
+[data-theme="dark"] .scenario-mockup.dark {
+  background:
+    linear-gradient(145deg, color-mix(in srgb, var(--color-bg) 94%, transparent), color-mix(in srgb, var(--color-primary-dark) 26%, var(--color-bg)));
+}
+
+[data-theme="dark"] .hero-mockup,
+[data-theme="dark"] .play-button,
+[data-theme="dark"] .counter-card,
+[data-theme="dark"] .auth-feature-panel,
+[data-theme="dark"] .cta-banner {
+  box-shadow: var(--shadow-lg);
+}
