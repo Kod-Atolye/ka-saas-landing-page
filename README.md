@@ -9,6 +9,7 @@ Built with Bootstrap 5 and modern UI components, this template helps developers 
 ## Live Demo
 
 https://kod-atolye.github.io/ka-saas-landing-page/
+https://demo.kodatolye.com.tr/ka-saas-landing-page/
 
 ---
 
